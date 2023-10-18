@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="D{oLSWE10`ka4^~e0gcq">mySprite</variable><variable type="KIND_SpriteKind" id="fpCnFo_h)YMMT4QX1==`">Player</variable><variable type="KIND_SpriteKind" id="5HA{oN-CYr$Vdxt?*^r;">Projectile</variable><variable type="KIND_SpriteKind" id="w|H4_-DRCL]:#cOv4bBW">Food</variable><variable type="KIND_SpriteKind" id="o}D@q|czt~1{Sq.?%X/p">Enemy</variable></variables><block type="pxt-on-start" id="UD*CAT+A;rOG;Fvh,2/*" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="W$qTu3xB)+{CehmBRX6k"><field name="VAR" id="D{oLSWE10`ka4^~e0gcq">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="z~eg}/Ju$hO/iw=CQR.e"><value name="img"><shadow type="screen_image_picker" id="In;3%jEu,5H?fJ~YRZuo"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"In;3%jEu,5H?fJ~YRZuo"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="j!azSC2(.gA~A3y!T.3K"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="v]^Z@ez_rJvYphw@*7b|"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><shadow type="variables_get" id="q?@{,*F88gzCS5y=eMu_"><field name="VAR" id="D{oLSWE10`ka4^~e0gcq">mySprite</field></shadow></value><next><block type="gameOver2" id=";RX1hk]=e)zNn00}y!6n"><value name="win"><shadow type="toggleWinLose" id="J:VlTg{[{DQ^BVK*X,M4"><field name="win">false</field></shadow></value></block></next></block></next></block></statement></block></xml>
